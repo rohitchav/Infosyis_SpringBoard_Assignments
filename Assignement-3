@@ -1,0 +1,28 @@
+class Tester{
+    void problem(int a,int b,int c)
+    {   //a=1,b=4,c=4
+       if(b==7)
+       {
+           System.out.println(c);
+       }
+       else if(a==7)
+       {
+           System.out.println(b*c);
+       }
+       else if(c==7)
+       {
+           System.out.println("-1");
+       }
+       else
+       {
+           System.out.println(a*b*c);
+       }
+    }
+    public static void main(String[] args) {
+       Tester obj=new Tester();
+       obj.problem(1,5,3);
+       obj.problem(3,7,8);
+       obj.problem(7,2,9);
+       obj.problem(2,6,7);
+    }
+}
